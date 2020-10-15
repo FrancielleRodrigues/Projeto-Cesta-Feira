@@ -14,14 +14,20 @@
   <body>
     <header><!--Inicio Cabecalho-->
 
-      <nav class="navbar fixed-top navbar-expand-lg navbar-dark nav" style="background-color: #467302;">
+      <nav class="fixed-top navbar-expand-lg navbar-dark nav" style="background-color: #467302;">
         <div class="container">
-          <a href="index.html" class="navbar-brand"><!--Logo-->
-            <img src="imagens/logo.png" width="142">
-          </a>
+
+          <div class="row">
+            <div class="col-sm pt-1">
+              <a href="index.html" class="navbar-dark"><!--Logo-->
+                <img src="imagens/logo.png" width="142">
+              </a>
+            </div>
+        
           <!--Campo de Busca-->
+          <div class="col-sm">
           <form>
-            <div class="input-group">
+            <div class="input-group p-3">
                 <input class="form-control" type="text" placeholder="Pesquisar...">
               <div class="input-group-append">
                 <button type="button" class="btn btn-light">
@@ -30,12 +36,16 @@
               </div>
           </div>
           </form>
+        </div>
 
-          
-             
-      
+         <!--Menu Hamburguer-->
+         <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-target">
+          <span class="navbar-toggler-icon"></span>
+       </button>
+         
 
-           <div class="collapse navbar-collapse" id="nav-target">
+        <div class="col-sm">
+           <div class="collapse navbar-collapse pt-3" id="nav-target">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item">
                 <a href="" class="btn btn-outline-light">Entrar</a>
@@ -45,14 +55,10 @@
               </li>
               </ul>
             </div>
-        
-            
-          </div><!--fim container-->
-
-
-          
+          </div>
+          </div>
           <div class="collapse navbar-collapse" id="nav-target">
-            <ul class="navbar-nav ml-auto">
+            <ul class="navbar-nav ml-auto mr-auto">
               <li class="nav-item">
                 <a href="index.html" class="nav-link">Home</a>
               </li>
@@ -73,6 +79,8 @@
               </li>
               </ul>
             </div>
+
+          </div><!--fim container-->
            <!--navegacao-->
     </nav>
   </header><!--Fim Cabecalho-->
