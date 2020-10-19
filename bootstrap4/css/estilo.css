@@ -10,17 +10,7 @@ body{
 }
 
 /**Layout**/
-#area-cabecalho{
-	width: 100%;
-	height: 125px;
-	background-color: #467302;
-	padding: 15px;
-	text-align: center;
-	position: fixed;
 
-
-
-}
 
 
 #area-logo{
@@ -36,7 +26,7 @@ body{
 }
 
 #area-busca{
-	padding: 30px;
+	padding: 50px;
 
 }
 
@@ -45,9 +35,6 @@ input{
     width: 50%; /*Largura do campo*/
     height: 40px; /*Altura do campo*/
     float: left; /*Posição do campo*/
-   
-    background-position: right;  /*posição do icone*/
-    background-repeat: no-repeat; /*Não repetir o icone */
     background-color: #fff; /*Cor do fundo do campo*/
     border: 2px solid #97BF04; /*Cor da borda do campo*/
 	border-radius: 5px; /*Curvatura da borda nas "quinas"*/
@@ -95,11 +82,6 @@ input{
 /**FORMATAÇÃO DO MENU**/
 a{
 	text-decoration: none;
-}
-
-a:link, a:visited{ 
-	color: #f7b600;
-
 }
 
 a:hover{
