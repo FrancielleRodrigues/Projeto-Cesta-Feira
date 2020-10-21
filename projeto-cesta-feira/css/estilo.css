@@ -11,10 +11,7 @@ body{
 
 /**Layout**/
 
-#area-cabecalho{
-	text-decoration-color: #fff;
 
-}
 
 #area-logo{
 	width: 160px;
@@ -37,7 +34,7 @@ input{
 
     width: 50%; /*Largura do campo*/
     height: 40px; /*Altura do campo*/
-    float: left; /*Posição do campo*/
+    /*float: ; /*Posição do campo*/
     background-color: #fff; /*Cor do fundo do campo*/
     border: 2px solid #97BF04; /*Cor da borda do campo*/
 	border-radius: 5px; /*Curvatura da borda nas "quinas"*/
@@ -47,12 +44,7 @@ input{
 }
 
 
-#area-menu{
-	padding: 40px;
-	float: center;
-	font-size: 20px;
 
-}
 #area-principal{
 	background: white;
 	width: 100%;
@@ -91,22 +83,28 @@ a:hover{
 	text-decoration: underline;
 	
 }
-#area-cabecalho a:link, #area-cabecalho a:visited{ /** A FORMATAÇÃO DE LINK SÓ ENTRARÁ NOS LINKS QUE ESTÃO NA AREA DE CABEÇALHO**/
+#area-menu a:link, #area-menu a:visited{ /** A FORMATAÇÃO DE LINK SÓ ENTRARÁ NOS LINKS QUE ESTÃO NA AREA DE CABEÇALHO**/
+	color: #FFF;
 	padding: 8px 12px;
 	border-radius: 5px;
 }
 
-#area-cabecalho a:hover{
+#area-menu a:hover{
 	color: #467302;
 	background: #97BF04;
 	text-decoration: none;
 	
 }
 
-
-.branco{
-	color: white;
+#area-cabecalho a:hover{
+	color: #fff;
+	background: #97BF04;
+	text-decoration: none;
+	
 }
+
+
+
 
 
 
