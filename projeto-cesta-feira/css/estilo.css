@@ -57,6 +57,14 @@ h2{
 
 
 }
+#area-principal2{
+	background: white;
+	width: 100%;
+	margin: 0 auto; /**CENTRALIZAR**/
+	padding-top: 80px;
+
+
+}
 
 #area-postagens{
 	width: 660px;
