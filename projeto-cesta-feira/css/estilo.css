@@ -34,18 +34,18 @@ h2{
 
 }
 
-input{
+/*input{
 
     width: 50%; /*Largura do campo*/
-    height: 40px; /*Altura do campo*/
+   /* height: 40px; /*Altura do campo*/
     /*float: ; /*Posição do campo*/
-    background-color: #fff; /*Cor do fundo do campo*/
-    border: 2px solid #97BF04; /*Cor da borda do campo*/
-	border-radius: 5px; /*Curvatura da borda nas "quinas"*/
-	text-indent: 25px; /*Um espaçamento para n atrapalhar a img*/
-	font-size: 15px;
+   /* background-color: #fff; /*Cor do fundo do campo*/
+    /*border: 2px solid #97BF04; /*Cor da borda do campo*/
+	/*border-radius: 5px; /*Curvatura da borda nas "quinas"*/
+	/*text-indent: 25px; /*Um espaçamento para n atrapalhar a img*/
+	/*font-size: 15px;
 
-}
+}*/
 
 
 
