@@ -57,11 +57,33 @@ h2{
 
 
 }
+
 #area-principal2{
 	background: white;
 	width: 100%;
 	margin: 0 auto; /**CENTRALIZAR**/
 	padding-top: 80px;
+	
+
+
+}
+#area-principal4{
+	background: white;
+	margin: 0 auto; /**CENTRALIZAR**/
+	padding-top: 120px;
+	
+	
+
+	
+
+
+}
+#area-principal3{
+	background: white;
+	width: 100%;
+	margin: 0 auto; /**CENTRALIZAR**/
+	padding-top: 130px;
+	
 
 
 }
