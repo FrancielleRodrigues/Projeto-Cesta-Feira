@@ -13,96 +13,73 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
    
 
-    <title>Cesta Feira</title>
+    <title>Anunciar Produtos - Cesta Feira</title>
   </head>
   <body>
     <header><!--Inicio Cabecalho-->
 
-      <nav class="fixed-top navbar-expand-lg navbar-dark nav" style="background-color: #467302;">
-        <div id="area-cabecalho" class="container">
-
-          <div class="row">
-            <div class="col-sm pt-2">
-              
-                <img src="imagens/logo.png" width="142">
+      <nav class="navbar fixed-top navbar-expand-lg navbar-dark nav" style="background-color: #467302;">
+        <div class="container">
+          <div>
+              <a href="index.html" class="navbar-brand">
+                    <img src="imagens/logo-p.png" width="100">
               </a>
-            </div>
-        
-          <!--Campo de Busca-->
-          <div class="col-sm">
-          <form>
-            <div class="input-group p-3">
-                <input class="form-control" type="search" placeholder="Pesquisar produtos..">
-              <div class="input-group-append">
-                <button type="button" class="btn btn-light">
-                  <img src="imagens/lupa.png" width="20px">
-                </button>
-              </div>
           </div>
-          </form>
         </div>
+      </nav>
 
-         <!--Menu Hamburguer-->
-         <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-target">
-          <span class="navbar-toggler-icon"></span>
-       </button>
-         
-        
-       <div class="col-sm">
-        <div class="collapse navbar-collapse pt-3" id="nav-target">
-         <ul class="navbar-nav ml-auto">
-           <li class="nav-item">
-             <a href="login.html" class="btn btn-outline-light">Entrar</a>
-           </li>
-           <li class="nav-item">
-             <a href="anunciar.html" class="btn btn-outline-light ml-2">Anunciar Produtos</a>
-           </li>
-           </ul>
-         </div>
-       </div>
-       </div>
-       <div class="collapse navbar-collapse" id="nav-target">
-         <ul class="navbar-nav ml-auto mr-auto pb-2">
-           <li class="nav-item">
-             <a href="index.html" class="nav-link">Home</a>
-           </li>
-           <li class="nav-item">
-             <a href="ofertas.html" class="nav-link">Ofertas</a>
-           </li>
-           <li class="nav-item">
-             <a href="frutas.html" class="nav-link">Frutas</a>
-           </li>
-           <li class="nav-item">
-             <a href="verduras.html" class="nav-link">Verduras</a>
-           </li>
-           <li class="nav-item">
-             <a href="legumes.html" class="nav-link">Legumes</a>
-           </li>
-           <li class="nav-item">
-             <a href="hortalicas.html" class="nav-link">Hortaliças</a>
-           </li>
-           </ul>
-         </div>
-          
+      </header>
 
-          </div><!--fim container-->
-           <!--navegacao-->
-    </nav>
-  </header><!--Fim Cabecalho-->
-   
-        
- 
-    
+       <div id="area-principal4" class="container">
+         <div class="card w-50 mx-auto" >
+          <div class="card-body">
+            <div style="text-align: center;">
+            <h4>Cadastro de Produto</h4>
+            </div>
 
-    
+            <form>
+              <div class="form-row ml-auto mr-auto pt-2">
+                <div class="form-group col-md-6">
+                  <label for="inputNome">Nome</label>
+                  <input type="text" class="form-control" placeholder="Ex.: Maça Argentina">
+                </div>
 
-    
-    
 
-    <section id="home">
+                
+                  <div class="form-group">
+                    <label for="exampleFormControlFile1">Imagem</label>
+                    <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                  </div>
 
-    </section>
+                  <div class="form-group col-md-4">
+                    <label for="inputEstado">Categoria</label>
+                    <select id="inputEstado" class="form-control">
+                      <option selected>Selecione</option>
+                      <option>Fruta</option>
+                      <option>Verdura</option>
+                      <option>Hortaliça</option>
+                      <option>Legume</option>
+                    </select>
+                  </div>
 
+                  <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Descrição</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  </div>
+                </form>
+
+                <div class="form-row ml-auto mr-auto pt-2">
+                  <div class="form-group col-md-6">
+                    <label for="inputNome">Unidade de venda</label>
+                    <input type="text" class="form-control" placeholder="Ex.: Kg">
+                  </div>
+                
+            </form>
+
+            </div>
+            </div>
+            </div>
+      
 
 
     
