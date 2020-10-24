@@ -30,7 +30,7 @@
 
       </header>
 
-       <div id="area-principal4" class="container">
+       <div id="area-principal" class="container">
          <div class="card w-50 mx-auto" >
           <div class="card-body">
             <div style="text-align: center;">
@@ -43,14 +43,13 @@
                   <label for="inputNome">Nome</label>
                   <input type="text" class="form-control" placeholder="Ex.: Maça Argentina">
                 </div>
+                <div class="form-group col-md-4">
+                  <label for="inputNome">Unidade de venda</label>
+                  <input type="text" class="form-control" placeholder="Ex.: Kg">
+                </div>
+                </div>
 
-
-                
-                  <div class="form-group">
-                    <label for="exampleFormControlFile1">Imagem</label>
-                    <input type="file" class="form-control-file" id="exampleFormControlFile1">
-                  </div>
-
+                <div class="form-row ml-auto mr-auto">
                   <div class="form-group col-md-4">
                     <label for="inputEstado">Categoria</label>
                     <select id="inputEstado" class="form-control">
@@ -61,18 +60,35 @@
                       <option>Legume</option>
                     </select>
                   </div>
+                </div>
 
-                  <div class="form-group">
+                <div class="form-row ml-auto mr-auto">
+                  <div class="form-group col-md">
+                    <label for="exampleFormControlFile1">Imagem</label>
+                    <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                  </div>
+                </div>
+
+               
+
+                <div class="form-row ml-auto mr-auto pt-2">
+                  <div class="form-group col-md">
                     <label for="exampleFormControlTextarea1">Descrição</label>
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                   </div>
-                </form>
+                </div>
 
-                <div class="form-row ml-auto mr-auto pt-2">
-                  <div class="form-group col-md-6">
-                    <label for="inputNome">Unidade de venda</label>
-                    <input type="text" class="form-control" placeholder="Ex.: Kg">
-                  </div>
+                <div class="form-row ml-auto mr-auto">
+                  <div class="form-group col-md">
+                  <button class="btn btn-success" type="submit">Cadastrar</button>
+                  <a href="index.html" class="btn btn-danger">Cancelar</a>
+                    
+                </div>
+                </div>
+                
+
+               
+                  
                 
             </form>
 
