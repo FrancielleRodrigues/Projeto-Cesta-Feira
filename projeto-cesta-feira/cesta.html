@@ -43,14 +43,18 @@
                     <th scope="col"></th>
                     <th scope="col">Produto</th>
                     <th scope="col">Quantidade</th>
+                    <th scope="col">Unidade</th>
                     <th scope="col">Preço</th>
+                    <th scope="col"></th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
                     <th scope="row">1</th>
-                    <td>Mark</td>
+                    <td>Nome do Produto1</td>
                     <td>
+                        <div class="row">
+                            <div class="col-md-6">
                         <input type="number" style="display: none;">
                         <div class="input-group">
                             <div class="input-group-prepend">
@@ -65,24 +69,108 @@
                                 </button>
 
                             </div>
-
+                        </div>
+                            </div>
                         </div>
                     </td>
-                    <td>@mdo</td>
+                    <td>Kg</td>
+                    <td>R$ 10,00</td>
+                    <td>
+                        <button type="button" class="btn btn-danger btn-sm">Excluir</button>
+                    </td>
                   </tr>
                   <tr>
                     <th scope="row">2</th>
-                    <td>Jacob</td>
-                    <td>Thornton</td>
-                    <td>@fat</td>
+                    <td>Nome do Produto2</td>
+                    <td class="col-sm-2"> 
+                        
+                    <input type="number" style="display: none;">
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <button style="min-width: 2.5rem" class="btn btn-decrement btn-outline-secondary btn-minus" type="button">
+                                <strong>-</strong>
+                            </button>
+                        </div>
+                        <input type="text" inputmode="decimal" style="text-align: center;" class="form-control" placeholder>
+                        <div class="input-group-append">
+                            <button style="min-width: 2.5rem;" class="btn btn-increment btn-outline-secondary btn-plus" type="button">
+                            <strong>+</strong>
+                            </button>
+
+                        </div>
+                        </div>
+                        
+                
+                </td>
+                    <td>R$ 20,00</td>
+                    <td>
+                        <button type="button" class="btn btn-danger btn-sm">Excluir</button>
+                    </td>
                   </tr>
                   <tr>
                     <th scope="row">3</th>
-                    <td>Larry</td>
-                    <td>the Bird</td>
-                    <td>@twitter</td>
+                    <td>Nome do Produto3</td>
+                    <td> <div class="row">
+                        <div class="col-md-6">
+                    <input type="number" style="display: none;">
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <button style="min-width: 2.5rem" class="btn btn-decrement btn-outline-secondary btn-minus" type="button">
+                                <strong>-</strong>
+                            </button>
+                        </div>
+                        <input type="text" inputmode="decimal" style="text-align: center;" class="form-control" placeholder>
+                        <div class="input-group-append">
+                            <button style="min-width: 2.5rem;" class="btn btn-increment btn-outline-secondary btn-plus" type="button">
+                            <strong>+</strong>
+                            </button>
+
+                        </div>
+                    </div>
+                        </div>
+                    </div>
+                </td>
+                    <td>R$ 30,00</td>
+                    <td>
+                        <button type="button" class="btn btn-danger btn-sm">Excluir</button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">4</th>
+                    <td>Nome do Produto4</td>
+                    <td>
+                        <div class="row">
+                            <div class="col-md-6">
+                        <input type="number" style="display: none;">
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <button style="min-width: 2.5rem" class="btn btn-decrement btn-outline-secondary btn-minus" type="button">
+                                    <strong>-</strong>
+                                </button>
+                            </div>
+                            <input type="text" inputmode="decimal" style="text-align: center;" class="form-control" placeholder>
+                            <div class="input-group-append">
+                                <button style="min-width: 2.5rem;" class="btn btn-increment btn-outline-secondary btn-plus" type="button">
+                                <strong>+</strong>
+                                </button>
+
+                            </div>
+                        </div>
+                            </div>
+                        </div>
+                    </td>
+                    <td>R$ 40,00</td>
+                    <td>
+                        <button type="button" class="btn btn-danger btn-sm">Excluir</button>
+                    </td>
                   </tr>
                 </tbody>
+                <tfoot>
+                    <tr>
+                        <th scope="row" class="ml-auto">Total</th>
+                        <td>R$ 100,00</td>
+                    </tr>
+                </tfoot>
               </table>
            
 
