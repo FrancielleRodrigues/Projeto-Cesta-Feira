@@ -18,11 +18,12 @@
   <body>
     <header><!--Inicio Cabecalho-->
 
-      <nav class="nav fixed-top navbar-expand-md navbar-dark nav" style="background-color: #467302;">
+      <nav class="nav fixed-top navbar-expand-lg navbar-dark nav" style="background-color: #467302;">
         <div id="area-cabecalho" class="container-fluid">
-
-          <div class="row">
-            <div class="col-1 pt-2">
+          
+          <div class="row ">
+            
+            <div class=" pl-3 pt-2">
               <a href="index.html">
                 <img src="imagens/logo-p.png">
               </a>
@@ -30,20 +31,27 @@
 
         
           <!--Campo de Busca-->
-          <div class="col-4 pt-3">
-          <form>
-            <div class="input-group  mx-auto">
-                <input class="form-control" type="search"  placeholder="Pesquisar produtos...">
-              <div class="input-group-append">
-                <button type="button" class="btn btn-light">
-                  <img src="imagens/lupa.png" width="20px">
-                </button>
-              </div>
+          <div class=" p-3">
+            <form>
+              <div class="input-group">
+                  <input class="form-control" style="min-width:100%;" type="search"  placeholder="Pesquisar produtos...">
+                <div class="input-group-append">
+                  <button type="button" class="btn btn-light">
+                    <img src="imagens/lupa-p-v.png" >
+                  </button>
+                </div>
+            </div>
+            </form>
           </div>
-          </form>
-        </div>
+
+          <div class="ml-auto p-3">
+            <!--Menu Hamburguer-->
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-target">
+             <span class="navbar-toggler-icon"></span>
+          </button>
+             </div>
         
-       <div class="col-3">
+       <div class=" p-1">
         <div>
          <ul class="navbar-nav pt-3">
           <li class="nav-item">
@@ -58,9 +66,14 @@
                 <a class="dropdown-item" href="login.html">Entrar</a>
                 <a class="dropdown-item" href="cadastro-pf.html">Cadastre-se</a>
                 <a class="dropdown-item" href="cadastro-pj.html">Cadastre sua empresa</a>
+                <a class="dropdown-item" href="cadastro-pj.html">Meu Endereço</a>
+                <a class="dropdown-item" href="cadastro-pj.html">Meus Pedidos</a>
+                <a class="dropdown-item" href="cadastro-pj.html">Minha Cesta</a>
+                <a class="dropdown-item" href="cadastro-pj.html">Vender</a>
               </div>
             </div>
           </li>
+          <div class="collapse navbar-collapse">
           <li class="nav-item">
             <a href="endereco.html" class="btn ml-1 btn-sm"  style="color: #ffffff; font-size: small;">
               <img src="imagens/local.png">
@@ -88,18 +101,18 @@
                Vender
               </a>
            </li>
-          
+          </div>
            </ul>
          </div>
        </div>
+       
+      
        </div>
+      
 
            
 
-          <!--Menu Hamburguer-->
-          <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-target">
-            <span class="navbar-toggler-icon"></span>
-         </button>
+          
 
 
          <!--navegacao-->
