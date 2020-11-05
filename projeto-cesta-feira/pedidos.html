@@ -12,6 +12,7 @@
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
    
+    <script src="funcao-avaliacao.js"></script>
 
     <title>Meus Pedidos - Cesta Feira</title>
   </head>
@@ -31,7 +32,7 @@
       </header>
 
        <div id="area-principal2" class="container">
-         <div class="card w-75 mx-auto border-success" >
+         <div class="card  mx-auto border-success" >
           <div style="text-align: center;">
             <h4 class="card-header">Meus Pedidos</h4>
             </div>
@@ -58,9 +59,23 @@
                        </div>
                     </td>
                     <td>00/00/000</td>
-                    <td>R$ 10,00</td>
+                    <td>Entregue</td>
                     <td>
-                        <button type="button" class="btn btn-danger btn-sm">Excluir</button>
+                        <a href="javascript:void(0)" onclick="Avaliar(1)">
+                            <img src="imagens/star0.png" id="s1"></a>
+                            
+                            <a href="javascript:void(0)" onclick="Avaliar(2)">
+                            <img src="imagens/star0.png" id="s2"></a>
+                            
+                            <a href="javascript:void(0)" onclick="Avaliar(3)">
+                            <img src="imagens/star0.png" id="s3"></a>
+                            
+                            <a href="javascript:void(0)" onclick="Avaliar(4)">
+                            <img src="imagens/star0.png" id="s4"></a>
+                            
+                            <a href="javascript:void(0)" onclick="Avaliar(5)">
+                            <img src="imagens/star0.png" id="s5"></a>
+                            <p id="rating">0</p>
                     </td>
                   </tr>
                   <tr>
@@ -72,9 +87,23 @@
                         </div>  
                     </td>
                     <td>00/00/000</td>
-                    <td>R$ 20,00</td>
+                    <td>Saiu para entregar</td>
                     <td>
-                        <button type="button" class="btn btn-danger btn-sm">Excluir</button>
+                        <a href="javascript:void(0)" onclick="Avaliar(1)">
+                            <img src="imagens/star0.png" id="s1"></a>
+                            
+                            <a href="javascript:void(0)" onclick="Avaliar(2)">
+                            <img src="imagens/star0.png" id="s2"></a>
+                            
+                            <a href="javascript:void(0)" onclick="Avaliar(3)">
+                            <img src="imagens/star0.png" id="s3"></a>
+                            
+                            <a href="javascript:void(0)" onclick="Avaliar(4)">
+                            <img src="imagens/star0.png" id="s4"></a>
+                            
+                            <a href="javascript:void(0)" onclick="Avaliar(5)">
+                            <img src="imagens/star0.png" id="s5"></a>
+                            <p id="rating">0</p>
                     </td>
                   </tr>
                   <tr>
@@ -86,9 +115,23 @@
                     </div>
                      </td>
                     <td>00/00/000</td>
-                    <td>R$ 30,00</td>
+                    <td>Empacotando o pedido</td>
                     <td>
-                        <button type="button" class="btn btn-danger btn-sm">Excluir</button>
+                        <a href="javascript:void(0)" onclick="Avaliar(1)">
+                            <img src="imagens/star0.png" id="s1"></a>
+                            
+                            <a href="javascript:void(0)" onclick="Avaliar(2)">
+                            <img src="imagens/star0.png" id="s2"></a>
+                            
+                            <a href="javascript:void(0)" onclick="Avaliar(3)">
+                            <img src="imagens/star0.png" id="s3"></a>
+                            
+                            <a href="javascript:void(0)" onclick="Avaliar(4)">
+                            <img src="imagens/star0.png" id="s4"></a>
+                            
+                            <a href="javascript:void(0)" onclick="Avaliar(5)">
+                            <img src="imagens/star0.png" id="s5"></a>
+                            <p id="rating">0</p>
                     </td>
                   </tr>
                   <tr>
@@ -100,24 +143,31 @@
                         </div>
                     </td>
                     <td>00/00/000</td>
-                    <td>R$ 40,00</td>
+                    <td>Entregue</td>
                     <td>
-                        <button type="button" class="btn btn-danger btn-sm">Excluir</button>
+                        <a href="javascript:void(0)" onclick="Avaliar(1)">
+                            <img src="imagens/star0.png" id="s1"></a>
+                            
+                            <a href="javascript:void(0)" onclick="Avaliar(2)">
+                            <img src="imagens/star0.png" id="s2"></a>
+                            
+                            <a href="javascript:void(0)" onclick="Avaliar(3)">
+                            <img src="imagens/star0.png" id="s3"></a>
+                            
+                            <a href="javascript:void(0)" onclick="Avaliar(4)">
+                            <img src="imagens/star0.png" id="s4"></a>
+                            
+                            <a href="javascript:void(0)" onclick="Avaliar(5)">
+                            <img src="imagens/star0.png" id="s5"></a>
+                            <p id="rating">0</p>
                     </td>
                   </tr>
                 </tbody>
               </table>
             
 
-              <div style="text-align: right;">
-                  <h4>TOTAL R$ 100,00</h4>
+             
 
-              </div>
-
-              <div>
-              <button type="button" class="btn btn-success">Finalizar Compra</button>
-              <a href="index.html" class="btn btn-danger">Cancelar</a>
-            </div>
 
             </div>
             </div>
