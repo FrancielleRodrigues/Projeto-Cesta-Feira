@@ -1,186 +1,209 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/estilo.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
- 
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-   
-    <script src="funcao-avaliacao.js"></script>
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>Meus Pedidos - Cesta Feira</title>
-  </head>
-  <body>
-    <header><!--Inicio Cabecalho-->
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/estilo.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
-      <nav class="navbar fixed-top navbar-expand-lg navbar-dark nav" style="background-color: #467302;">
-        <div class="container">
-          <div>
-              <a href="index.html" class="navbar-brand">
-                    <img src="imagens/logo-p.png" width="100">
-              </a>
-          </div>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+    integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+  <script src="funcao-avaliacao.js"></script>
+
+  <title>Meus Pedidos - Cesta Feira</title>
+</head>
+
+<body>
+  <header>
+    <!--Inicio Cabecalho-->
+
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark nav" style="background-color: #467302;">
+      <div class="container">
+        <div>
+          <a href="index.html" class="navbar-brand">
+            <img src="imagens/logo-p.png" width="100">
+          </a>
         </div>
-      </nav>
+      </div>
+    </nav>
 
-      </header>
+  </header>
 
-       <div id="area-principal2" class="container">
-         <div class="card  mx-auto border-success" >
-          <div style="text-align: center;">
-            <h4 class="card-header">Meus Pedidos</h4>
-            </div>
-          <div class="card-body">
-            
-            <table class="table">
-                <thead>
-                  <tr>
-                    <th scope="col"></th>
-                    <th scope="col">Produto</th>
-                    <th scope="col">Fornecedor</th>
-                    <th scope="col">Data da Entrega</th>
-                    <th scope="col">Status</th>
-                    <th scope="col">Avaliação</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <th scope="row">1</th>
-                    <td>Nome do Produto1</td>
-                    <td>
-                       <div>
-                           Nome do Fornecedor
-                       </div>
-                    </td>
-                    <td>00/00/000</td>
-                    <td>Entregue</td>
-                    <td>
-                        <a href="javascript:void(0)" onclick="Avaliar(1)">
-                            <img src="imagens/star0.png" id="s1"></a>
-                            
-                            <a href="javascript:void(0)" onclick="Avaliar(2)">
-                            <img src="imagens/star0.png" id="s2"></a>
-                            
-                            <a href="javascript:void(0)" onclick="Avaliar(3)">
-                            <img src="imagens/star0.png" id="s3"></a>
-                            
-                            <a href="javascript:void(0)" onclick="Avaliar(4)">
-                            <img src="imagens/star0.png" id="s4"></a>
-                            
-                            <a href="javascript:void(0)" onclick="Avaliar(5)">
-                            <img src="imagens/star0.png" id="s5"></a>
-                            <p id="rating">0</p>
-                    </td>
-                  </tr>
-                  <tr>
-                    <th scope="row">2</th>
-                    <td>Nome do Produto2</td>
-                    <td> 
-                        <div>
-                            Nome do Fornecedor
-                        </div>  
-                    </td>
-                    <td>00/00/000</td>
-                    <td>Saiu para entregar</td>
-                    <td>
-                        <a href="javascript:void(0)" onclick="Avaliar(1)">
-                            <img src="imagens/star0.png" id="s1"></a>
-                            
-                            <a href="javascript:void(0)" onclick="Avaliar(2)">
-                            <img src="imagens/star0.png" id="s2"></a>
-                            
-                            <a href="javascript:void(0)" onclick="Avaliar(3)">
-                            <img src="imagens/star0.png" id="s3"></a>
-                            
-                            <a href="javascript:void(0)" onclick="Avaliar(4)">
-                            <img src="imagens/star0.png" id="s4"></a>
-                            
-                            <a href="javascript:void(0)" onclick="Avaliar(5)">
-                            <img src="imagens/star0.png" id="s5"></a>
-                            <p id="rating">0</p>
-                    </td>
-                  </tr>
-                  <tr>
-                    <th scope="row">3</th>
-                    <td>Nome do Produto3</td>
-                    <td> 
-                    <div>
-                        Nome do Fornecedor
-                    </div>
-                     </td>
-                    <td>00/00/000</td>
-                    <td>Empacotando o pedido</td>
-                    <td>
-                        <a href="javascript:void(0)" onclick="Avaliar(1)">
-                            <img src="imagens/star0.png" id="s1"></a>
-                            
-                            <a href="javascript:void(0)" onclick="Avaliar(2)">
-                            <img src="imagens/star0.png" id="s2"></a>
-                            
-                            <a href="javascript:void(0)" onclick="Avaliar(3)">
-                            <img src="imagens/star0.png" id="s3"></a>
-                            
-                            <a href="javascript:void(0)" onclick="Avaliar(4)">
-                            <img src="imagens/star0.png" id="s4"></a>
-                            
-                            <a href="javascript:void(0)" onclick="Avaliar(5)">
-                            <img src="imagens/star0.png" id="s5"></a>
-                            <p id="rating">0</p>
-                    </td>
-                  </tr>
-                  <tr>
-                    <th scope="row">4</th>
-                    <td>Nome do Produto4</td>
-                    <td>
-                        <div>
-                            Nome do Fornecedor
-                        </div>
-                    </td>
-                    <td>00/00/000</td>
-                    <td>Entregue</td>
-                    <td>
-                        <a href="javascript:void(0)" onclick="Avaliar(1)">
-                            <img src="imagens/star0.png" id="s1"></a>
-                            
-                            <a href="javascript:void(0)" onclick="Avaliar(2)">
-                            <img src="imagens/star0.png" id="s2"></a>
-                            
-                            <a href="javascript:void(0)" onclick="Avaliar(3)">
-                            <img src="imagens/star0.png" id="s3"></a>
-                            
-                            <a href="javascript:void(0)" onclick="Avaliar(4)">
-                            <img src="imagens/star0.png" id="s4"></a>
-                            
-                            <a href="javascript:void(0)" onclick="Avaliar(5)">
-                            <img src="imagens/star0.png" id="s5"></a>
-                            <p id="rating">0</p>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-            
+  <div id="area-principal2" class="container">
+    <div class="card  mx-auto border-success">
+      <div style="text-align: center;">
+        <h4 class="card-header">Meus Pedidos</h4>
+      </div>
+      <div class="card-body">
 
-             
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col"></th>
+              <th scope="col">Produto</th>
+              <th scope="col">Fornecedor</th>
+              <th scope="col">Data da Entrega</th>
+              <th scope="col">Status</th>
+              <th scope="col">Avaliação</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>Nome do Produto1</td>
+              <td>
+                <div>
+                  Nome do Fornecedor
+                </div>
+              </td>
+              <td>00/00/000</td>
+              <td>Entregue</td>
+              <td>
+                <a href="javascript:void(0)" onclick="Avaliar(1)">
+                  <img src="imagens/star0.png" id="s1"></a>
+
+                <a href="javascript:void(0)" onclick="Avaliar(2)">
+                  <img src="imagens/star0.png" id="s2"></a>
+
+                <a href="javascript:void(0)" onclick="Avaliar(3)">
+                  <img src="imagens/star0.png" id="s3"></a>
+
+                <a href="javascript:void(0)" onclick="Avaliar(4)">
+                  <img src="imagens/star0.png" id="s4"></a>
+
+                <a href="javascript:void(0)" onclick="Avaliar(5)">
+                  <img src="imagens/star0.png" id="s5"></a>
+                <p id="rating">0</p>
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>Nome do Produto2</td>
+              <td>
+                <div>
+                  Nome do Fornecedor
+                </div>
+              </td>
+              <td>00/00/000</td>
+              <td>Saiu para entregar</td>
+              <td>
+                <a href="javascript:void(0)" onclick="Avaliar(1)">
+                  <img src="imagens/star0.png" id="s1"></a>
+
+                <a href="javascript:void(0)" onclick="Avaliar(2)">
+                  <img src="imagens/star0.png" id="s2"></a>
+
+                <a href="javascript:void(0)" onclick="Avaliar(3)">
+                  <img src="imagens/star0.png" id="s3"></a>
+
+                <a href="javascript:void(0)" onclick="Avaliar(4)">
+                  <img src="imagens/star0.png" id="s4"></a>
+
+                <a href="javascript:void(0)" onclick="Avaliar(5)">
+                  <img src="imagens/star0.png" id="s5"></a>
+                <p id="rating">0</p>
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td>Nome do Produto3</td>
+              <td>
+                <div>
+                  Nome do Fornecedor
+                </div>
+              </td>
+              <td>00/00/000</td>
+              <td>Empacotando o pedido</td>
+              <td>
+                <a href="javascript:void(0)" onclick="Avaliar(1)">
+                  <img src="imagens/star0.png" id="s1"></a>
+
+                <a href="javascript:void(0)" onclick="Avaliar(2)">
+                  <img src="imagens/star0.png" id="s2"></a>
+
+                <a href="javascript:void(0)" onclick="Avaliar(3)">
+                  <img src="imagens/star0.png" id="s3"></a>
+
+                <a href="javascript:void(0)" onclick="Avaliar(4)">
+                  <img src="imagens/star0.png" id="s4"></a>
+
+                <a href="javascript:void(0)" onclick="Avaliar(5)">
+                  <img src="imagens/star0.png" id="s5"></a>
+                <p id="rating">0</p>
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">4</th>
+              <td>Nome do Produto4</td>
+              <td>
+                <div>
+                  Nome do Fornecedor
+                </div>
+              </td>
+              <td>00/00/000</td>
+              <td>Entregue</td>
+              <td>
+                <a href="javascript:void(0)" onclick="Avaliar(1)">
+                  <img src="imagens/star0.png" id="s1"></a>
+
+                <a href="javascript:void(0)" onclick="Avaliar(2)">
+                  <img src="imagens/star0.png" id="s2"></a>
+
+                <a href="javascript:void(0)" onclick="Avaliar(3)">
+                  <img src="imagens/star0.png" id="s3"></a>
+
+                <a href="javascript:void(0)" onclick="Avaliar(4)">
+                  <img src="imagens/star0.png" id="s4"></a>
+
+                <a href="javascript:void(0)" onclick="Avaliar(5)">
+                  <img src="imagens/star0.png" id="s5"></a>
+                <p id="rating">0</p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
 
 
-            </div>
-            </div>
-            </div>
-      
 
 
-    
-    
-    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
-  </body>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+  <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+
+  <div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
+
+</body>
+
 </html>

@@ -22,7 +22,7 @@
       <nav class="navbar fixed-top navbar-expand-lg navbar-dark nav" style="background-color: #467302;">
         <div class="container">
           <div>
-              <a href="index.html" class="navbar-brand">
+              <a href="index.php" class="navbar-brand">
                     <img src="imagens/logo-p.png" width="100">
               </a>
           </div>
